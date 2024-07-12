@@ -10,5 +10,8 @@ To install macros, open the macro editor in Microsoft Word. In Windows, press Al
 ## List of macros
 Here's a brief description of the content of this repository:
 
+**`date-calculator`**
+
+This macro helps write or QC dates, e.g., for use in patient safety narratives. It calculates future dates based on the selected text and displays them in the "dd-mmm-yyyy" format. The macro provides both the inclusive and non-inclusive end date.
 
 
