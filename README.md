@@ -7,7 +7,7 @@ The macros were developed with Office 365 for Windows but should work with earli
 ## Macro Installation
 To install macros, open the macro editor in Microsoft Word. In Windows, press Alt+F11 while in a document to open the editor. You can also press Alt+F8 to view current macros. Refer to the [official documentation](https://support.microsoft.com/en-us/office/create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c) for additional details.
 
-## List of macros
+## List of Macros
 Here's a brief description of the content of this repository:
 
 **`AutoFitTablesToMargins`**
@@ -20,7 +20,7 @@ This macro adds a given number of days to a date. Its intended purpose is to hel
 
 **`DrugNameReplacer`**
 
-This macro finds a company-specific drug name/code and replaces it with the drug's generic name, applying the correct capitalization based on context. For example, capitalizing the first letter if the name is used at the start of a sentence, capitalizing as title case or upper case when used in headings, or lower case within a sentence. Replacement is based on the formatting styles used in the document. It will also exclude replacements within study identifiers (if applicable to your use case). The macro must be modified accordingly per your style guide, drug names, and study identifiers.
+This macro finds a company-specific drug name/code and replaces it with the drug's generic name, applying the correct capitalization based on context. For example, capitalizing the first letter if the name is used at the start of a sentence, as title case or upper case when used in headings, or as lower case within a sentence. Replacement is based on the formatting styles used in the document. It will also exclude replacements within study identifiers (if applicable to your use case). The macro must be modified accordingly per your style guide, drug names, and study identifiers.
 
 The standard Word 'Find and Replace' does a poor job of matching the correct case of a replacement. If you've ever had to find and replace a drug name 300+ times in an Investigator's Brochure, fixing the capitalization as you go, this macro is for you.
   

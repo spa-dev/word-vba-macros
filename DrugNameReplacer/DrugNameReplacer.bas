@@ -30,8 +30,10 @@ Sub DrugNameReplacer()
     drugCode = "IMMU-132"
     studyCode = "IMMU-132-01"
     lowercaseName = "sacituzumab govitecan"
-    titlecaseName = "Sacituzumab govitecan"
-    uppercaseName = "SACITUZUMAB GOVITECAN"
+    
+    ' Use VBA functions to convert to title case and upper case
+    titlecaseName = StrConv(lowercaseName, vbProperCase)
+    uppercaseName = UCase(lowercaseName)
 
     ' Show pop-up message. Stop if user does not click Yes.
     Msg = "This macro finds a pre-specified company drug code and replaces it " & _
