@@ -1,20 +1,20 @@
 Attribute VB_Name = "DateCalculator"
 Sub DateCalculator()
 
-    '=========================
-    'Macro created 2024 by spa-dev
-    'GitHub: https://github.com/spa-dev/word-vba-macros
-    'GNU GPL v3 License: https://www.gnu.org/licenses/gpl-3.0.html
-    '=========================
-    'This macro adds a given number of days to a date. It calculates future dates 
-    'based on user-selected text representing a date in a valid format. Note that 
-    'ordinal indicators (e.g., "st", "nd", "rd", etc.) are not considered valid.
-    'The user is prompted to enter the number of days to add to the selected date.
-    'Results are displayed in a message box. The output includes the original date, 
-    'the date after adding the specified days, and the date including one 
-    'additional day (end date inclusive), all formatted as "dd-mmm-yyyy".
-    'Revise the output format as needed (refer to VBA date format documentation).
-    '=========================
+    ' =========================
+    ' Macro created 2024 by spa-dev
+    ' GitHub: https://github.com/spa-dev/word-vba-macros
+    ' GNU GPL v3 License: https://www.gnu.org/licenses/gpl-3.0.html
+    ' =========================
+    ' This macro adds a given number of days to a date. It calculates future dates 
+    ' based on user-selected text representing a date in a valid format. Note that 
+    ' ordinal indicators (e.g., "st", "nd", "rd", etc.) are not considered valid.
+    ' The user is prompted to enter the number of days to add to the selected date.
+    ' Results are displayed in a message box. The output includes the original date, 
+    ' the date after adding the specified days, and the date including one 
+    ' additional day (end date inclusive), all formatted as "dd-mmm-yyyy".
+    ' Revise the output format as needed (refer to VBA date format documentation).
+    ' =========================
 
     Dim selectedText As String
     Dim startDate As Date
