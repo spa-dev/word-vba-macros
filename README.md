@@ -5,20 +5,20 @@ A collection of Word VBA macros intended for Medical Writing projects.
 The macros were developed with Office 365 for Windows but should work with earlier versions of Word. The macros have not been tested with Word for Apple Mac.
 
 ## Macro Installation
-To install macros, open the macro editor in Microsoft Word. In Windows, press Alt+F11 while you're in a document to open the editor. You can also press Alt+F8 to view current macros. Refer to the the [official documentation](https://support.microsoft.com/en-us/office/create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c) for additional details.
+To install macros, open the macro editor in Microsoft Word. In Windows, press Alt+F11 while in a document to open the editor. You can also press Alt+F8 to view current macros. Refer to the [official documentation](https://support.microsoft.com/en-us/office/create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c) for additional details.
 
 ## List of macros
 Here's a brief description of the content of this repository:
 
 **`AutoFitTablesToMargins`**
 
-A very simple macro to fit all the tables in the document to the page margins. It also stops the tables from automatically adjusting the column widths to fit the contents, which is often annoying. This is the equivalent to unchecking "Table properties" > "Options" > "Automatically resize to fit contents." If you prefer to keep that behavior, just comment out the relevant line of code.
+A very simple macro to fit all tables in the document to the page margins. It also stops tables from automatically adjusting the column widths to fit the contents, which is often annoying. This is the equivalent to unchecking "Table properties" > "Options" > "Automatically resize to fit contents." If you prefer to keep that behavior, just comment out the relevant line of code.
 
-**`date-calculator`**
+**`DateCalculator`**
 
 This macro adds a given number of days to a date. Its intended purpose is to help write or QC dates, e.g., in patient safety narratives. It calculates future dates based on the selected text plus the user-provided number of days. The output is displayed in "dd-mmm-yyyy" format. The macro provides both the inclusive and non-inclusive end date.
 
-**`drug-name-replacer`**
+**`DrugNameReplacer`**
 
 This macro finds a company-specific drug name/code and replaces it with the drug's generic name, applying the correct capitalization based on context. For example, capitalizing the first letter if the name is used at the start of a sentence, capitalizing as title case or upper case when used in headings, or lower case within a sentence. Replacement is based on the formatting styles used in the document. It will also exclude replacements within study identifiers (if applicable to your use case). The macro must be modified accordingly per your style guide, drug names, and study identifiers.
 
