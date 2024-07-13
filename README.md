@@ -12,6 +12,6 @@ Here's a brief description of the content of this repository:
 
 **`date-calculator`**
 
-This macro helps write or QC dates, e.g., for use in patient safety narratives. It calculates future dates based on the selected text and displays them in the "dd-mmm-yyyy" format. The macro provides both the inclusive and non-inclusive end date.
+This macro adds a given number of days to a date. Its intended purpose is to help write or QC dates, e.g., in patient safety narratives. It calculates future dates based on the selected text plus the user-provided number of days. The output is displayed in "dd-mmm-yyyy" format. The macro provides both the inclusive and non-inclusive end date.
 
 
