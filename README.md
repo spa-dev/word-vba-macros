@@ -26,3 +26,7 @@ The standard Word 'Find and Replace' does a poor job of matching the correct cas
   
 Note that headers and footers are not checked. You should be using [alignment tabs](https://cybertext.wordpress.com/2014/07/25/word-auto-aligning-headerfooter-info-in-portrait-and-landscape-pages) to ensure you only have to replace it once in the header anyway, using 'Link to Previous', even across portrait and landscape pages.
 
+**`FormatBoldTextBlue`**
+
+This macro will color any bold text found within a selection blue. It is intended to help create external crosslinks within a documents. During the PDF publishing and submissions process, the Medical Writing Operations or Regulatory Operations group will ensure that bold blue text contains a hyperlink to the external file. If your company uses red instead of blue color to signify this, just uncomment and delete the relevant lines of code in the macro. I found this macro useful for signifying links in bibliographies. Just highlight your whole bibliography with the cursor and run the macro, assuming your reference manager, e.g. EndNote, has already applied bold formatting to the author names. EndNote can't apply colors, so I needed to create this macro to do that.
+
